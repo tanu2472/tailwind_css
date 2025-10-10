@@ -1,6 +1,7 @@
 import './Home.css'
 import Navbar from '../components/navbar';
 import HeroSection from '../components/HeroSection';
+import FeaturesSection from "../components/FeaturesSection"
 
 
 
@@ -9,7 +10,7 @@ function Home() {
     <div>
       <Navbar/>
       <HeroSection/>
-    
+      <FeaturesSection/>
    </div>
   )
 }
