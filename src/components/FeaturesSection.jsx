@@ -1,4 +1,5 @@
 import {Shirt, HandCoins, Motorbike,Leaf,Headset,ShieldMinus} from 'lucide-react';
+import FeatureCard from './FeatureCard';
 
 
 const FEATURES_CONFIG = [
@@ -42,20 +43,21 @@ const FEATURES_CONFIG = [
 function FeaturesSection() {
   return (
     <div>
-      <h2 className='text-center text-3xl pt-[100px]'>
-         Why Choose DOR (Dress On Rent) ?
+      <h2 className='text-center text-gray-600 text-4xl my-6 pt-[100px]'>
+         Why Choose <span className='font-extrabold text-pink-600'>D</span>ress
+          <span className='font-extrabold text-pink-600'> O</span>n 
+          <span className='font-extrabold text-pink-600'> R</span>ent ?
       </h2>
       <div className='flex flex-wrap justify-around '>
         {FEATURES_CONFIG.map((featureObj) => {
              const { title, description, icon ,iconColor} = featureObj;
 
           return (
-          <div key={title}className='bg-pink-200 m-4 p-4'>
-            <div className=" flex justify-center items-center w-[100px] h-[100px] 
-            bg-white-400 mx-auto shadow-md rounded-md">{icon}</div>
-            <h3 className={"text-xl"} > {title}</h3>
-            <p>{description}</p>
-           </div>
+          <FeatureCard
+           title={title}
+           description={description}
+           icon={icon} 
+           key={title}  />
         );
 
         })}
