@@ -9,12 +9,12 @@ function FeatureCard({title, description, icon}) {
              </div>
              <div className="ml-6">
 
-            <h3 className={"text-xl mb-2  mt-6 font-semibold "} > {title}</h3>
+            <h3 className="text-xl mb-2  mt-6 font-semibold " > {title}</h3>
             <p className=" text-gray-600">{description}</p>
 
            </div>
            </div>
-        );
+  );
 }
 
-export default FeatureCard;
+  export default FeatureCard;

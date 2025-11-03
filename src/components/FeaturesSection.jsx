@@ -1,4 +1,4 @@
-import FeatureCard from './FeatureCard';
+import FeatureCard from './FeatureCardFixed';
 
 import { FEATURES_CONFIG } from '../config/CommonConfig';
 

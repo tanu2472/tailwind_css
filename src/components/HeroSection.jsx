@@ -1,4 +1,5 @@
 import imgFeature from "../assets/fashion blogging-amico.png"
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -17,10 +18,15 @@ function HeroSection() {
        or maternity wear, you’ll find a wide range of styles to suit every occasion.
        It’s a smart, sustainable way to enjoy luxury fashion without the commitment or cost of buying.
       </p>
+      
+      <Link to="/explore" className="text-3xl mt-15 text-white block mx-auto bg-pink-500 px-6 py-3 rounded-full hover:bg-pink-800  cursor-pointer font-lightbold transition duration-300 ease-in-out w-fit">
+        Explore Now 👉 {" "}
+        
+      </Link>
         
      </div> 
     
   );
 }
 
-export default HeroSection
+export default HeroSection;
