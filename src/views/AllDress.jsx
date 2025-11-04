@@ -16,7 +16,8 @@ function AllDress() {
         <h2 className='text-center text-gray-600 text-4xl my-6 py-[50px] pt-[100px]'>
           Our Products... 
          </h2>
-       <div>
+
+       <div className="flex  flex-wrap justify-center mt-8">
         {DRESSES_CONFIG.map((dressData)=>{
 
           const { id,

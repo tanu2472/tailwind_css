@@ -2,7 +2,7 @@ const DRESSES_CONFIG = [
      {
     id: 1,
     name: 'Elegant Evening Gown',
-    image: 'https://example.com/elegant-evening-gown.jpg',
+    image: [],
     description: 'A stunning evening gown perfect for formal events and special occasions.',
     pricePerDay: '₹120',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -10,11 +10,11 @@ const DRESSES_CONFIG = [
     category: 'Evening Wear',
     availability: true,
     rating: 4,
-  },
+  }, 
   {
     id: 2,
     name: 'Bridal Lehenga',
-    image: 'https://example.com/bridal-lehenga.jpg',
+    image: [],
     description: 'Traditional bridal lehenga with intricate embroidery and rich fabrics.',
     pricePerDay: '₹450',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -26,7 +26,7 @@ const DRESSES_CONFIG = [
   {
     id: 3,
     name: 'Casual Day Dress',
-    image: 'https://example.com/casual-day-dress.jpg',
+    image: [],
     description: 'Comfortable cotton dress for daytime outings and casual events.',
     pricePerDay: '₹25',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -38,7 +38,7 @@ const DRESSES_CONFIG = [
   {
     id: 4,
     name: 'Cocktail Dress',
-    image: 'https://example.com/cocktail-dress.jpg',
+    image:[],
     description: 'Short and chic cocktail dress suitable for parties and nights out.',
     pricePerDay: '₹60',
     sizesAvailable: ['S', 'M', 'L'],
@@ -50,7 +50,7 @@ const DRESSES_CONFIG = [
   {
     id: 5,
     name: 'Bohemian Maxi Dress',
-    image: 'https://example.com/boho-maxi.jpg',
+    image: [],
     description: 'Flowy boho maxi with floral prints and comfortable fit.',
     pricePerDay: '₹35',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -62,7 +62,7 @@ const DRESSES_CONFIG = [
   {
     id: 6,
     name: 'Satin Slip Dress',
-    image: 'https://example.com/satin-slip.jpg',
+    image:[],
     description: 'Smooth satin slip dress with a minimalist silhouette.',
     pricePerDay: '₹55',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -74,7 +74,7 @@ const DRESSES_CONFIG = [
   {
     id: 7,
     name: 'Mermaid Bridal Gown',
-    image: 'https://example.com/mermaid-bridal.jpg',
+    image: [],
     description: 'Fitted mermaid bridal gown with lace overlay and train.',
     pricePerDay: '₹600',
     sizesAvailable: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -86,7 +86,7 @@ const DRESSES_CONFIG = [
   {
     id: 8,
     name: 'Vintage Tea Dress',
-    image: 'https://example.com/tea-dress.jpg',
+    image:[],
     description: 'Retro-inspired tea dress with a fitted waist and flared skirt.',
     pricePerDay: '₹40',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -98,7 +98,7 @@ const DRESSES_CONFIG = [
   {
     id: 9,
     name: 'Prom Ball Gown',
-    image: 'https://example.com/prom-ball-gown.jpg',
+    image: [],
     description: 'Full-skirt ball gown perfect for prom and grand events.',
     pricePerDay: '₹220',
     sizesAvailable: ['S', 'M', 'L'],
@@ -110,7 +110,7 @@ const DRESSES_CONFIG = [
   {
     id: 10,
     name: 'Sequin Mini Dress',
-    image: 'https://example.com/sequin-mini.jpg',
+    image: [],
     description: 'Sparkling sequin mini dress for bold party looks.',
     pricePerDay: '₹75',
     sizesAvailable: ['XS', 'S', 'M'],
@@ -122,7 +122,7 @@ const DRESSES_CONFIG = [
   {
     id: 11,
     name: 'Classic Little Black Dress',
-    image: 'https://example.com/lbd.jpg',
+    image: [],
     description: 'Timeless little black dress that flatters most body types.',
     pricePerDay: '₹45',
     sizesAvailable: ['XS', 'S', 'M', 'L', 'XL'],
@@ -134,7 +134,7 @@ const DRESSES_CONFIG = [
   {
     id: 12,
     name: 'Floral Sundress',
-    image: 'https://example.com/floral-sundress.jpg',
+    image: [],
     description: 'Lightweight sundress with cheerful floral pattern.',
     pricePerDay: '₹28',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -146,7 +146,7 @@ const DRESSES_CONFIG = [
   {
     id: 13,
     name: 'Structured Sheath Dress',
-    image: 'https://example.com/sheath-dress.jpg',
+    image: [],
     description: 'Professional sheath dress ideal for business events and interviews.',
     pricePerDay: '₹50',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -158,7 +158,7 @@ const DRESSES_CONFIG = [
   {
     id: 14,
     name: 'Grecian Goddess Gown',
-    image: 'https://example.com/grecian-gown.jpg',
+    image: [],
     description: 'Flowing Grecian-style gown with draped fabric and elegant silhouette.',
     pricePerDay: '₹135',
     sizesAvailable: ['S', 'M', 'L'],
@@ -170,7 +170,7 @@ const DRESSES_CONFIG = [
   {
     id: 15,
     name: 'Engagement Saree',
-    image: 'https://example.com/engagement-saree.jpg',
+    image: [],
     description: 'Embroidered saree suitable for engagement ceremonies and ethnic events.',
     pricePerDay: '₹180',
     sizesAvailable: ['One Size'],
@@ -182,7 +182,7 @@ const DRESSES_CONFIG = [
   {
     id: 16,
     name: 'Denim Shirt Dress',
-    image: 'https://example.com/denim-shirt-dress.jpg',
+    image:[],
     description: 'Casual denim shirt dress with button-front and relaxed fit.',
     pricePerDay: '₹30',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -194,7 +194,7 @@ const DRESSES_CONFIG = [
   {
     id: 17,
     name: 'High-Low Hem Dress',
-    image: 'https://example.com/high-low.jpg',
+    image: [],
     description: 'Stylish high-low hem dress that’s playful yet elegant.',
     pricePerDay: '₹48',
     sizesAvailable: ['S', 'M', 'L'],
@@ -206,7 +206,7 @@ const DRESSES_CONFIG = [
   {
     id: 18,
     name: 'Velvet Wrap Dress',
-    image: 'https://example.com/velvet-wrap.jpg',
+    image: [],
     description: 'Luxurious velvet wrap dress that’s warm and sophisticated.',
     pricePerDay: '₹90',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -218,7 +218,7 @@ const DRESSES_CONFIG = [
   {
     id: 19,
     name: 'Boho Embroidered Tunic',
-    image: 'https://example.com/boho-tunic.jpg',
+    image: [],
     description: 'Relaxed embroidered tunic perfect for festivals and casual days.',
     pricePerDay: '₹22',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -230,7 +230,7 @@ const DRESSES_CONFIG = [
   {
     id: 20,
     name: 'Glamour Column Gown',
-    image: 'https://example.com/column-gown.jpg',
+    image: [],
     description: 'Sleek column gown with minimalist charm and modern lines.',
     pricePerDay: '₹150',
     sizesAvailable: ['S', 'M', 'L'],
@@ -242,7 +242,7 @@ const DRESSES_CONFIG = [
   {
     id: 21,
     name: 'Ruffle Wrap Midi',
-    image: 'https://example.com/ruffle-wrap.jpg',
+    image:[],
     description: 'Flattering wrap midi with playful ruffle details.',
     pricePerDay: '₹38',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -254,7 +254,7 @@ const DRESSES_CONFIG = [
   {
     id: 22,
     name: 'Traditional Anarkali',
-    image: 'https://example.com/anarkali.jpg',
+    image: [],
     description: 'Floor-length Anarkali dress with heavy embellishments for weddings.',
     pricePerDay: '₹320',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -266,7 +266,7 @@ const DRESSES_CONFIG = [
   {
     id: 23,
     name: 'Shift Dress',
-    image: 'https://example.com/shift-dress.jpg',
+    image: [],
     description: 'Minimal shift dress that’s easy to wear and style for many occasions.',
     pricePerDay: '₹27',
     sizesAvailable: ['XS', 'S', 'M', 'L', 'XL'],
@@ -278,7 +278,7 @@ const DRESSES_CONFIG = [
   {
     id: 24,
     name: 'Cape Evening Gown',
-    image: 'https://example.com/cape-gown.jpg',
+    image:[],
     description: 'Dramatic evening gown with attached cape for a red-carpet look.',
     pricePerDay: '₹240',
     sizesAvailable: ['S', 'M', 'L'],
@@ -290,7 +290,7 @@ const DRESSES_CONFIG = [
   {
     id: 25,
     name: 'Garden Party Midi',
-    image: 'https://example.com/garden-midi.jpg',
+    image: [],
     description: 'Pretty midi dress ideal for garden parties and daytime weddings.',
     pricePerDay: '₹46',
     sizesAvailable: ['S', 'M', 'L'],
@@ -302,7 +302,7 @@ const DRESSES_CONFIG = [
   {
     id: 26,
     name: 'Glam Sequin Saree',
-    image: 'https://example.com/sequin-saree.jpg',
+    image: [],
     description: 'Modern saree with sequin embellishments for evening ethnic looks.',
     pricePerDay: '₹200',
     sizesAvailable: ['One Size'],
@@ -314,7 +314,7 @@ const DRESSES_CONFIG = [
   {
     id: 27,
     name: 'Pleated Midi Skirt Dress',
-    image: 'https://example.com/pleated-midi.jpg',
+    image: [],
     description: 'Pleated midi dress with a delicate waist tie for feminine styling.',
     pricePerDay: '₹34',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -326,7 +326,7 @@ const DRESSES_CONFIG = [
   {
     id: 28,
     name: 'Embellished Cape Saree',
-    image: 'https://example.com/embellished-cape-saree.jpg',
+    image: [],
     description: 'Designer cape saree with heavy beadwork and embroidered motifs.',
     pricePerDay: '₹500',
     sizesAvailable: ['One Size'],
@@ -338,7 +338,7 @@ const DRESSES_CONFIG = [
   {
     id: 29,
     name: 'Tuxedo Dress',
-    image: 'https://example.com/tuxedo-dress.jpg',
+    image: [],
     description: 'Androgynous tuxedo-style dress with sharp tailoring and satin lapels.',
     pricePerDay: '₹95',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -350,7 +350,7 @@ const DRESSES_CONFIG = [
   {
     id: 30,
     name: 'Silk Kaftan',
-    image: 'https://example.com/silk-kaftan.jpg',
+    image: [],
     description: 'Luxurious silk kaftan with hand-printed motifs, great for resort wear.',
     pricePerDay: '₹65',
     sizesAvailable: ['S', 'M', 'L', 'XL', 'XXL'],
