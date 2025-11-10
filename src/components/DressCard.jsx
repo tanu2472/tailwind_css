@@ -89,6 +89,7 @@ function DressCard({
     category, 
     availability, 
     rating
+    
  }) {
   return (
      <div className="bg-white w-[350px] m-6 px-4 py-6 rounded-lg shadow-lg"
@@ -111,12 +112,16 @@ function DressCard({
           {...pricePerDay}</span>
 
            {/* Rating */}           
-        <span className=" absolute  ml-5"> <RatingStars rating={rating} /> ({rating.toFixed(1)})
+        <span className=" absolute  ml-18"> <RatingStars rating={rating} />
         </span>
 
            {/*Description*/}
       <p className="text-gray-600 mt-2">
         {description}
+
+      <p className="">
+        {}
+        </p>  
          
       </p>
     </div>
