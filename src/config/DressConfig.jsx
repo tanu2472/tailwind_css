@@ -1,8 +1,10 @@
+// NOTE: these entries use Unsplash source image queries so the app immediately shows relevant images.
+// You can replace any of these with local files in `public/images/` (use paths like '/images/your-file.jpg').
 const DRESSES_CONFIG = [
-     {
+  {
     id: 1,
     name: 'Elegant Evening Gown',
-    image: [],
+    image: ['https://cdn.jovani.com/wp-content/uploads/47219_GOLD_6684-534x800.jpg'],
     description: 'A stunning evening gown perfect for formal events and special occasions.',
     pricePerDay: '₹120/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -10,11 +12,11 @@ const DRESSES_CONFIG = [
     category: 'Evening Wear',
     availability: true,
     rating: 4,
-  }, 
+  },
   {
     id: 2,
     name: 'Bridal Lehenga',
-    image: [],
+    image: ['https://cdn.shopaccino.com/nakhrali/products/302-14645481769833_m.jpg?v=613'],
     description: 'Traditional bridal lehenga with intricate embroidery and rich fabrics.',
     pricePerDay: '₹450/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -26,7 +28,7 @@ const DRESSES_CONFIG = [
   {
     id: 3,
     name: 'Casual Day Dress',
-    image: [],
+    image: ['https://joeyclothing.com/cdn/shop/files/SAJ_3584.jpg?v=1738215209'],
     description: 'Comfortable cotton dress for daytime outings and casual events.',
     pricePerDay: '₹25/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -38,7 +40,7 @@ const DRESSES_CONFIG = [
   {
     id: 4,
     name: 'Cocktail Dress',
-    image:[],
+    image: ['https://pc-ap.rtrcdn.com/productimages/front/1080x/1e/ONES39.jpg?auto=webp&optimize=medium&width=800'],
     description: 'Short and chic cocktail dress suitable for parties and nights out.',
     pricePerDay: '₹60/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -50,7 +52,7 @@ const DRESSES_CONFIG = [
   {
     id: 5,
     name: 'Bohemian Maxi Dress',
-    image: [],
+    image: ['https://bohemianloverunway.com.au/cdn/shop/files/LOOK11_JAASE_15thMay__027.jpg?crop=region&crop_height=2089&crop_left=0&crop_top=5&crop_width=1400&v=1749542825&width=1400'],
     description: 'Flowy boho maxi with floral prints and comfortable fit.',
     pricePerDay: '₹35/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -62,7 +64,7 @@ const DRESSES_CONFIG = [
   {
     id: 6,
     name: 'Satin Slip Dress',
-    image:[],
+    image: ['https://d3v4qpjzw4kz8j.cloudfront.net/optimise/UTSS19012Blush001.jpeg?height=440&quality=80&signature=f7c17b48cd2905217476ee49ee133a713995f2daf19c70d81490c1d886a42920&src0=uploads/product_image/photo/5df8ef2fdd232e256acf15e0/UTSS19012Blush001.jpg&version=20221026&watermark=false&width=275'],
     description: 'Smooth satin slip dress with a minimalist silhouette.',
     pricePerDay: '₹55/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -74,7 +76,7 @@ const DRESSES_CONFIG = [
   {
     id: 7,
     name: 'Mermaid Bridal Gown',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/51RQxBqdp2L.jpg'],
     description: 'Fitted mermaid bridal gown with lace overlay and train.',
     pricePerDay: '₹600/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -86,7 +88,7 @@ const DRESSES_CONFIG = [
   {
     id: 8,
     name: 'Vintage Tea Dress',
-    image:[],
+    image: ['https://cdn.shopify.com/s/files/1/0378/5257/7932/products/11698.jpg?v=1589326407'],
     description: 'Retro-inspired tea dress with a fitted waist and flared skirt.',
     pricePerDay: '₹40/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -98,7 +100,7 @@ const DRESSES_CONFIG = [
   {
     id: 9,
     name: 'Prom Ball Gown',
-    image: [],
+    image: ['https://www.showprettydress.com/cdn/shop/files/v-neck-sleeveless-crystal-beading-ball-gown-prom-dresses-showprettydress.jpg?v=1756737012&width=600'],
     description: 'Full-skirt ball gown perfect for prom and grand events.',
     pricePerDay: '₹220/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -110,7 +112,7 @@ const DRESSES_CONFIG = [
   {
     id: 10,
     name: 'Sequin Mini Dress',
-    image: [],
+    image: ['https://www.motelrocks.com/cdn/shop/files/ZEYANA-UNLINED-MINI-DRESS-SEQUIN-GOLD-2_9ca1b1ab-731b-41b9-8c59-484e039ee9e9.jpg?crop=center&format=pjpg&v=1743585072&width=1024'],
     description: 'Sparkling sequin mini dress for bold party looks.',
     pricePerDay: '₹75/hour',
     sizesAvailable: ['XS', 'S', 'M'],
@@ -122,7 +124,7 @@ const DRESSES_CONFIG = [
   {
     id: 11,
     name: 'Classic Little Black Dress',
-    image: [],
+    image: ['https://images.riverisland.com/image/upload/t_plp_portraitSmall/f_auto/q_auto/926882_main?_a=BATAV5eA0'],
     description: 'Timeless little black dress that flatters most body types.',
     pricePerDay: '₹45/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L', 'XL'],
@@ -134,7 +136,7 @@ const DRESSES_CONFIG = [
   {
     id: 12,
     name: 'Floral Sundress',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/71npXhNx5HL.jpg'],
     description: 'Lightweight sundress with cheerful floral pattern.',
     pricePerDay: '₹28/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -146,7 +148,7 @@ const DRESSES_CONFIG = [
   {
     id: 13,
     name: 'Structured Sheath Dress',
-    image: [],
+    image: ['https://anninc.scene7.com/is/image/AN/603954_7879?$488x601$'],
     description: 'Professional sheath dress ideal for business events and interviews.',
     pricePerDay: '₹50/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -158,7 +160,7 @@ const DRESSES_CONFIG = [
   {
     id: 14,
     name: 'Grecian Goddess Gown',
-    image: [],
+    image: ['https://i.etsystatic.com/18738767/r/il/b96cc0/6517517878/il_794xN.6517517878_gzag.jpg'],
     description: 'Flowing Grecian-style gown with draped fabric and elegant silhouette.',
     pricePerDay: '₹135/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -170,7 +172,7 @@ const DRESSES_CONFIG = [
   {
     id: 15,
     name: 'Engagement Saree',
-    image: [],
+    image: ['https://binalpatel.in/cdn/shop/files/banner-01_a9cc3b0e-39b2-4d6b-867e-198ecff853f0_600x.jpg?v=1696928072'],
     description: 'Embroidered saree suitable for engagement ceremonies and ethnic events.',
     pricePerDay: '₹180/hour',
     sizesAvailable: ['One Size'],
@@ -182,7 +184,7 @@ const DRESSES_CONFIG = [
   {
     id: 16,
     name: 'Denim Shirt Dress',
-    image:[],
+    image: ['https://assets.digitalcontent.marksandspencer.app/image/upload/w_2560,q_auto,f_auto/SD_10_T83_1030D_JQ_X_EC_0'],
     description: 'Casual denim shirt dress with button-front and relaxed fit.',
     pricePerDay: '₹30/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -194,7 +196,7 @@ const DRESSES_CONFIG = [
   {
     id: 17,
     name: 'High-Low Hem Dress',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/51YT5QTPc-L.jpg'],
     description: 'Stylish high-low hem dress that’s playful yet elegant.',
     pricePerDay: '₹48/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -206,7 +208,7 @@ const DRESSES_CONFIG = [
   {
     id: 18,
     name: 'Velvet Wrap Dress',
-    image: [],
+    image: ['https://i.etsystatic.com/5641614/c/1200/1200/0/45/il/563ac5/2040510188/il_600x600.2040510188_erdj.jpg'],
     description: 'Luxurious velvet wrap dress that’s warm and sophisticated.',
     pricePerDay: '₹90/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -218,7 +220,7 @@ const DRESSES_CONFIG = [
   {
     id: 19,
     name: 'Boho Embroidered Tunic',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/71UF5E923rL.jpg'],
     description: 'Relaxed embroidered tunic perfect for festivals and casual days.',
     pricePerDay: '₹22/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -230,7 +232,7 @@ const DRESSES_CONFIG = [
   {
     id: 20,
     name: 'Glamour Column Gown',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/513BQen5G2L.jpg'],
     description: 'Sleek column gown with minimalist charm and modern lines.',
     pricePerDay: '₹150/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -242,7 +244,7 @@ const DRESSES_CONFIG = [
   {
     id: 21,
     name: 'Ruffle Wrap Midi',
-    image:[],
+    image: ['https://m.media-amazon.com/images/I/61msKj7I3FL.jpg'],
     description: 'Flattering wrap midi with playful ruffle details.',
     pricePerDay: '₹38/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -254,7 +256,7 @@ const DRESSES_CONFIG = [
   {
     id: 22,
     name: 'Traditional Anarkali',
-    image: [],
+    image: ['https://medias.utsavfashion.com/media/catalog/product/cache/1/small_image/295x/040ec09b1e35df139433887a97daa66f/e/m/embroidered-art-silk-anarkali-suit-in-light-green-v1-kjc5511.jpg'],
     description: 'Floor-length Anarkali dress with heavy embellishments for weddings.',
     pricePerDay: '₹320/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -266,7 +268,7 @@ const DRESSES_CONFIG = [
   {
     id: 23,
     name: 'Shift Dress',
-    image: [],
+    image: ['https://m.media-amazon.com/images/I/613BhBQTB7L.jpg'],
     description: 'Minimal shift dress that’s easy to wear and style for many occasions.',
     pricePerDay: '₹27/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L', 'XL'],
@@ -278,7 +280,7 @@ const DRESSES_CONFIG = [
   {
     id: 24,
     name: 'Cape Evening Gown',
-    image:[],
+    image: ['https://m.media-amazon.com/images/I/71hQ1yuqaOL.jpg'],
     description: 'Dramatic evening gown with attached cape for a red-carpet look.',
     pricePerDay: '₹240/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -290,7 +292,7 @@ const DRESSES_CONFIG = [
   {
     id: 25,
     name: 'Garden Party Midi',
-    image: [],
+    image: ['https://shophalehouse.com/cdn/shop/files/IMG_13762_1000x1334.jpg?v=1740065993'],
     description: 'Pretty midi dress ideal for garden parties and daytime weddings.',
     pricePerDay: '₹46/hour',
     sizesAvailable: ['S', 'M', 'L'],
@@ -302,7 +304,7 @@ const DRESSES_CONFIG = [
   {
     id: 26,
     name: 'Glam Sequin Saree',
-    image: [],
+    image: ['https://glamwiz.com/cdn/shop/files/1copy_1024x1024.webp?v=1759313473'],
     description: 'Modern saree with sequin embellishments for evening ethnic looks.',
     pricePerDay: '₹200/hour',
     sizesAvailable: ['One Size'],
@@ -314,7 +316,7 @@ const DRESSES_CONFIG = [
   {
     id: 27,
     name: 'Pleated Midi Skirt Dress',
-    image: [],
+    image: ['https://i.etsystatic.com/27168120/c/852/852/0/243/il/c6ec7f/2810694652/il_600x600.2810694652_m0fb.jpg'],
     description: 'Pleated midi dress with a delicate waist tie for feminine styling.',
     pricePerDay: '₹34/hour',
     sizesAvailable: ['XS', 'S', 'M', 'L'],
@@ -326,7 +328,7 @@ const DRESSES_CONFIG = [
   {
     id: 28,
     name: 'Embellished Cape Saree',
-    image: [],
+    image: ['https://taruntahiliani.com/cdn/shop/files/196-TT11JUN23959_800x.jpg?v=1739525198'],
     description: 'Designer cape saree with heavy beadwork and embroidered motifs.',
     pricePerDay: '₹500/hour',
     sizesAvailable: ['One Size'],
@@ -338,7 +340,7 @@ const DRESSES_CONFIG = [
   {
     id: 29,
     name: 'Tuxedo Dress',
-    image: [],
+    image: ['https://dqp736wsu6w3m.cloudfront.net/s3bucket/w1000/looks/2856/classic-navy-tuxedo-with-ivory-shirt-and-oversized-bow.jpg'],
     description: 'Androgynous tuxedo-style dress with sharp tailoring and satin lapels.',
     pricePerDay: '₹95/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL'],
@@ -349,8 +351,8 @@ const DRESSES_CONFIG = [
   },
   {
     id: 30,
-    name: 'Silk Kaftan',
-    image: [],
+      name: 'Silk Kaftan',
+    image: ['https://i.etsystatic.com/25051493/c/1281/1281/0/274/il/dfb0f1/4117217490/il_600x600.4117217490_a51s.jpg'],
     description: 'Luxurious silk kaftan with hand-printed motifs, great for resort wear.',
     pricePerDay: '₹65/hour',
     sizesAvailable: ['S', 'M', 'L', 'XL', 'XXL'],
@@ -362,3 +364,5 @@ const DRESSES_CONFIG = [
 ];
 
 export {DRESSES_CONFIG}
+
+  

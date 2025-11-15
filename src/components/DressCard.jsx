@@ -94,36 +94,26 @@ function DressCard({
   return (
      <div className="bg-white w-[350px] m-6 px-4 py-6 rounded-lg shadow-lg"
     key={id}>
-      <span className="bg-gray-100 text-white-800 text-sm rounded-sm px-2">
-        
-       <span className="ml-1"> {category}</span>  
-        </span>
+      <span className="inline-block mb-2 px-2 py-1 rounded-sm text-sm bg-gray-100 text-gray-800">
+        {category}
+      </span>
 
        {/* Image*/}
-     <img
-      src="https://thumbs.dreamstime.com/b/elevated-view-designer-dress-white-background-high-quality-resolution-beautiful-photo-concept-214356554.jpg"
-      alt={name}
-      className="w-full h-48 object-cover" />
+  <img
+   src={(image && image.length > 0) ? image[0] : 'https://via.placeholder.com/600x400?text=No+Image'}
+   alt={name}
+   className="w-full h-100 object-cover rounded-md" />
       <h3 className="text-lg md:xl font-semibold mt-4 text-slate-700">{name}</h3>
-       &nbsp; <hr className="py-1" />
+  <hr className="my-3" />
 
        {/* Price/hour*/}
-      <span className=" bg-gray-200 text-gray-800  top-[160px] right-0  px-2 border-gray-300 rounded-r-full border-l-0 ">
-          {...pricePerDay}</span>
-
-           {/* Rating */}           
-        <span className=" absolute  ml-18"> <RatingStars rating={rating} />
-        </span>
+      <div className="flex items-center justify-between">
+        <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded">{pricePerDay}</span>
+        <div><RatingStars rating={rating} /></div>
+      </div>
 
            {/*Description*/}
-      <p className="text-gray-600 mt-2">
-        {description}
-
-      <p className="">
-        {}
-        </p>  
-         
-      </p>
+      <p className="text-gray-600 mt-2">{description}</p>
     </div>
   );
 }
